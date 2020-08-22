@@ -16,6 +16,7 @@ class Weights{
 display(){
     var pos = this.body.position;
     ellipseMode(CENTER);
+    stroke("pink");
     fill("indigo");
     ellipse(pos.x, pos.y, this.radius);
 }
